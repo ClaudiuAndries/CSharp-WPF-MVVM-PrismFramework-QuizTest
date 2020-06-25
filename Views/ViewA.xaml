@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="AutolocatorWPF.Views.ViewA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:AutolocatorWPF.Views"
+             xmlns:prism="http://prismlibrary.com/"
+             prism:ViewModelLocator.AutoWireViewModel="True"
+             xmlns:vm ="clr-namespace:AutolocatorWPF.ViewModels"
+             mc:Ignorable="d" 
+             Background="White"
+             d:DesignHeight="450" d:DesignWidth="800">
+        <Grid>
+                <ListBox  Visibility="Visible" HorizontalAlignment="Left" Height="313" Margin="57,29,0,0" VerticalAlignment="Top" Width="681" SelectionMode="Single"  IsSynchronizedWithCurrentItem="True">
+
+                        <TextBlock Text="{Binding QuestionName}" Margin="25" FontSize="15"/>
+                        <ItemsControl ItemsSource="{Binding ItemsControlGet}">
+                                <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                                <StackPanel>
+                                                        
+                                                        <RadioButton IsChecked="{Binding CheckItem}" Margin="10" GroupName="{Binding groupQuest}" Tag ="{Binding RightValue}">
+                                                                <TextBlock Text="{Binding LoadRadioContent}"/>
+                                                        </RadioButton>
+                                                </StackPanel>
+                                        </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+
+                </ListBox>
+                <ListBox Visibility="{Binding MultipleQuestion}" HorizontalAlignment="Left" Height="313" Margin="57,29,0,0" VerticalAlignment="Top" Width="681" SelectionMode="Single"  IsSynchronizedWithCurrentItem="True">
+
+                        <TextBlock Text="{Binding QuestionName}" Margin="25" FontSize="15"/>
+                        <ItemsControl ItemsSource="{Binding ItemsControlGet}">
+                                <ItemsControl.ItemTemplate>
+                                        <DataTemplate>
+                                                <StackPanel>
+
+                                                        <CheckBox IsChecked="{Binding CheckItem}" Margin="10" Content="{Binding LoadRadioContent}"/>
+                                                </StackPanel>
+                                        </DataTemplate>
+                                </ItemsControl.ItemTemplate>
+                        </ItemsControl>
+
+                </ListBox>
+
+                <Button Content="Back" HorizontalAlignment="Left" Margin="57,369,0,0" VerticalAlignment="Top" Width="75" Command="{Binding BackButton}"/>
+                <Button Content="{Binding ButtonNameSet}" HorizontalAlignment="Left" Margin="663,364,0,0" VerticalAlignment="Top" Width="75" Command="{Binding NextButton}"/>
+
+        </Grid>
+</UserControl>
