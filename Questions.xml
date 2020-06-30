@@ -1,0 +1,183 @@
+﻿<QuestionsList>
+  <question>
+    <name>Cine a fost presedinte pana acum?</name>
+    <answers>Traian Basescu,Iohannis,Ponta</answers>
+    <rightIndex>1,2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Cul il cheama pe imparatul roman?</name>
+    <answers>Tiberius,Claudius,Cezar,Mitica</answers>
+    <rightIndex>1,2,3</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este capitala Romaniei?</name>
+    <answers>Iasi,Timisoara,Bucuresti,Arad</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Cati ani are un deceniu?</name>
+    <answers>35 de ani,10 ani,100 de ani</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este prima planeta de la soare?</name>
+    <answers>Mercur,Venus,Pamant,Pluto,Saturn,Uranus</answers>
+    <rightIndex>1</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este moneda americana?</name>
+    <answers>Euro,Dolar,Lira</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este cea mai populata tara?</name>
+    <answers>SUA,Republica Populara Chineza,Japonia,Tailanda,Nici una din cele de mai sus,Test</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Cine este Mark Zuckerberg?</name>
+    <answers>Programator,Co-fondatorul si presedintele Facebook,Scriitor</answers>
+    <rightIndex>1,2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Ce faci cand parasuta nu s-a depliat din sac in timpul saltului cu parasuta?</name>
+    <answers>Largare,Deschizi rezerva,Te panichezi</answers>
+    <rightIndex>1,2</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  <question>
+    <name>Ce PlayStation a aparut in 2020?</name>
+    <answers>PS3,PS4,PS5</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>eazy</TypeQuestion>
+  </question>
+  
+  
+  <question>
+    <name>Care este cel mai inalt varf din lume?</name>
+    <answers>Everest,Aconcagua,Elbrus</answers>
+    <rightIndex>1</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+    </question>
+      <question>
+      <name>Cine este cel mai inalt om din lume?</name>
+      <answers>Sultan Kosen,Chandra BahadurBruce Lee</answers>
+      <rightIndex>1</rightIndex>
+      <TypeQuestion>medium</TypeQuestion>
+    </question>
+    <question>
+      <name>Cati copii a avut Stefan cel Mare?</name>
+      <answers>10 copii,9 copii,7 copii</answers>
+      <rightIndex>3</rightIndex>
+      <TypeQuestion>medium</TypeQuestion>
+    </question>
+    <question>
+      <name>Care este viteza luminii?</name>
+      <answers>299.729.458 metri pe secunda,302.106.919.7 metri pe secunda,299.792 kilometri pe secunda</answers>
+      <rightIndex>1,3</rightIndex>
+      <TypeQuestion>medium</TypeQuestion>
+    </question>
+  <question>
+    <name>In ce unitate se masoara unghiurile?</name>
+    <answers>milimetri patrati,Metri,Grade,minute,secunde</answers>
+    <rightIndex>1,2,3</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+  </question>
+  <question>
+    <name>Cate grade are un triunghi dreptunghic?</name>
+    <answers>90,360,180</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este numarul de evanghelisti ai bibliei?</name>
+    <answers>Doi evanghelisti,Trei evanghelisti,Patru evanghelisti</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+  </question>
+  <question>
+    <name>Complexitatea structurii de date HASHTABLE pentru a extrage elementul?</name>
+    <answers>O(1),O(n),O(logn),O(n*n)</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+  </question>
+  <question>
+    <name>De la ce intaltime sar studentii de la parasutism?</name>
+    <answers>1200 metri,3937 picioare,47244 inchi,15Newton</answers>
+    <rightIndex>1,2,3</rightIndex>
+    <TypeQuestion>medium</TypeQuestion>
+  </question>
+  
+  
+  <question>
+    <name>Cate celule are parafoilul?</name>
+    <answers>5 celule,9 celule,7 celule,12 celule</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este acceleratia gravitationala a lunei?</name>
+    <answers>9.8m/s,1.6m/s,2.9m/s,3.3m/s,4.6m/s</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Cine a fondat Microsoft?</name>
+    <answers>Bill Gates,Paul Allen,Mark Zuckerberg,Victor Cerbescu</answers>
+    <rightIndex>1,2</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Ce este un infrasunet?</name>
+    <answers>Un sunet ce nu poate fi auzit de urechea umana,Sunete ce pot fi auzite de urechea umana,Vibratii cu frecventa cuprinsa intre 0.001 Hz si 20 Hz,Nici una din cele de mai sus</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este greutatea maxima ce poate fi transportata de un elefant?</name>
+    <answers>3000 kg,9000 kg,1000 kg</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este cel mai comun element din scoarta Pamantului?</name>
+    <answers>Oxigen,Aluminiu,Fier,Aur,Argint,Cupru</answers>
+    <rightIndex>1</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>La ce varsta a murit Adolf Hitler?</name>
+    <answers>27 de ani,49 de ani,56 de ani,2 ani</answers>
+    <rightIndex>3</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Cat traieste in medie o antilopa?</name>
+    <answers>10 ani,15 ani</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+      <name>Cate fire de par are un om in cap?</name>
+      <answers>100.000 de fire,150.000 de fire</answers>
+      <rightIndex>1</rightIndex>
+      <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <question>
+    <name>Care este cel mai adanc lac din lume?</name>
+    <answers>Lacul Matano,Lacul Baikal,Crater Lake,Altul</answers>
+    <rightIndex>2</rightIndex>
+    <TypeQuestion>hard</TypeQuestion>
+  </question>
+  <Content>
+    <NumberQuestions>5</NumberQuestions>
+  </Content>
+</QuestionsList>
