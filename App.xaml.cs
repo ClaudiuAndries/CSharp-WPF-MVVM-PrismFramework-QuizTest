@@ -1,10 +1,14 @@
-﻿using Prism.Ioc;
+using Prism.Ioc;
 using Prism.Unity;
+using System;
+using System.Collections.Generic;
+using System.Configuration;
+using System.Data;
+using System.Linq;
 using System.Windows;
-using AutolocatorWPF.Views;
+using WpfApp2.Views;
 
-
-namespace AutolocatorWPF
+namespace WpfApp2
 {
         /// <summary>
         /// Interaction logic for App.xaml
@@ -18,9 +22,13 @@ namespace AutolocatorWPF
 
                 protected override void RegisterTypes(IContainerRegistry containerRegistry)
                 {
-                        containerRegistry.RegisterForNavigation<MainPage>("MainPage");
 
                         containerRegistry.RegisterForNavigation<ViewA>("ViewA");
+                }
+
+                private static void NewMethod(IContainerRegistry containerRegistry)
+                {
+                        containerRegistry.RegisterForNavigation<MainPage>("MainPage");
                 }
         }
 }
