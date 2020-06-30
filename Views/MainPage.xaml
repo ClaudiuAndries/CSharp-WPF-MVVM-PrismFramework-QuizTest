@@ -1,16 +1,14 @@
-﻿<Window x:Class="AutolocatorWPF.Views.MainPage"
+<Window x:Class="WpfApp2.Views.MainPage"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:AutolocatorWPF.Views"
+        xmlns:local="clr-namespace:WpfApp2.Views"
         xmlns:prism="http://prismlibrary.com/"
         mc:Ignorable="d"
         prism:ViewModelLocator.AutoWireViewModel="True"
         Title="{Binding Title}" Height="450" Width="800">
         <Grid>
-
-
                 <Button Content="START" HorizontalAlignment="Left" Margin="353,332,0,0" VerticalAlignment="Top" Width="75" Command="{Binding ButtonPress}" Height="52" RenderTransformOrigin="0.54,2.649"/>
                 <TextBlock HorizontalAlignment="Left" Height="23" Margin="54,32,0,0" TextWrapping="Wrap" Text="Introdu numele!" VerticalAlignment="Top" Width="120"/>
                 <TextBox HorizontalAlignment="Left" Height="23" Margin="55,63,0,0" TextWrapping="Wrap" Text="{Binding NameInsertion}" VerticalAlignment="Top" Width="120"/>
@@ -20,14 +18,7 @@
                         <ComboBoxItem>Mediu</ComboBoxItem>
                         <ComboBoxItem>Hard</ComboBoxItem>
                 </ComboBox>
-
                 <TextBlock HorizontalAlignment="Left" Margin="146,250,0,0" TextWrapping="Wrap" Text="Apasa butonul de start pentru a incepe testul!" FontSize="24" VerticalAlignment="Top" Width="489"/>
                 <ContentControl prism:RegionManager.RegionName="ContentRegion"/>
-
-
-
-
-
-
         </Grid>
 </Window>
